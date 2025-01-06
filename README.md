@@ -1,10 +1,11 @@
 # Simulation des Modèles Dynamiques d'une Machine à Laver
 
-Ce projet implémente une simulation des dynamiques d'une machine à laver en utilisant des modèles mathématiques basés sur la méthode numérique d’Euler semi-implicite. L'objectif est de modéliser les phases critiques du cycle de lavage, telles que le lavage, le rinçage et l'essorage, en tenant compte des paramètres physiques.
+Ce projet implémente une simulation des dynamiques d'une machine à laver en utilisant des modèles mathématiques basés sur la méthode numérique d’Euler semi-implicite. L'objectif est de modéliser les phases du cycle de lavage, telles que le lavage, le rinçage et l'essorage, en tenant compte des paramètres physiques.
 
 ## Contenu du Projet
 
-- **Phase de Rotation Rapide** : Implémentation des équations et simulations associées à la phase d'essorage, où des vitesses élevées induisent des forces centrifuges.
+- **Phase de Rotation Lente** : Implémentation des équations et simulations associées à la phase de lavage et de rinçage, avec des vitesses de rotation du tambour relativement basses.
+- **Phase de Rotation Rapide** : Implémentation des équations et simulations associées à la phase d'essorage, avec des vitesses élevées induisent des forces centrifuges.
 - **Analyse des Forces Dynamiques** : Étude des forces et oscillations induites par le déséquilibre des charges.
 - **Simulation des Interactions** : Simulation de divers paramètres physiques comme le coefficient de frottement, la masse des vêtements, et la géométrie de la machine.
 
